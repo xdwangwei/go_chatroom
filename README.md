@@ -2,6 +2,8 @@
 
 此项目（严格来说算不上项目）是在学习 golang 的过程中写的一个基于 tcp协议的简易聊天室，有兴趣可以看看，虽然比较小，但还是用到了很多东西。
 
+如果看不懂里面的逻辑呢，看看[视频教程](https://www.bilibili.com/video/BV1ME411Y71o?p=316)吧，只是我的封装可能稍微有一点不一样哦。
+
 ### 二、关键技术
 
 - gorouting （go 协程当然必不可少了，维持一个通信任务，接收啊发送消息什么的）
@@ -37,6 +39,8 @@
   go build -o server.exe .\tcpchat\server\main\
   go build -o client.exe .\tcpchat\client\main\
   ```
+
+- 还是建议学习一下 go-redis 的基本使用 和 json 格式呢。
 
 ### 五、运行截图
 
