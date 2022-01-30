@@ -33,7 +33,7 @@
 - 更好的方式是分别编译客户端和服务端代码，然后得到可执行文件，就可以打开cmd窗口运行啦，此时可以启动多个客户端哦。
 
   ```sh
-  # 进入 GOPATH/src/awesomeProject，分别执行
+  # 进入 GOPATH/src，分别执行
   go build -o server.exe .\tcpchat\server\main\
   go build -o client.exe .\tcpchat\client\main\
   ```
